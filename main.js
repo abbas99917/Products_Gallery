@@ -82,6 +82,23 @@ const products = [
  
 ]
 
+
+// toggle them
+
+const themeToggle = document.querySelector("#themeToggle");
+
+themeToggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+
+    if (document.body.classList.contains("dark")) {
+        themeToggle.innerHTML = `<i class="fa-solid fa-sun"></i>`;
+    } else {
+        themeToggle.innerHTML = `<i class="fa-solid fa-moon"></i>`;
+    }
+});
+
+
+
 const productSections = document.querySelector(".product-sections")
 const SearchProduct = document.querySelector("#SearchProduct")
 
