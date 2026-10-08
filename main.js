@@ -78,7 +78,17 @@ const products = [
     "price": 1799,
     "actualPrice": 2399,
     "stock": 30
-  }
+  },
+  {
+    "id": 9,
+    "category": "Accessories",
+    "name": "Premium Sunglasses",
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083",
+    "description": "Modern sunglasses with a stylish frame suitable for everyday outdoor use.",
+    "price": 1299,
+    "actualPrice": 1399,
+    "stock": 10
+  },
  
 ]
 
